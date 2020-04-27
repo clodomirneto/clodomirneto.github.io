@@ -1,0 +1,16 @@
+# main links links
+main:
+  - title: "Ensino"
+    url: /ensino/
+
+  - title: "Lógica Modal"
+    url: /logicamodal/    
+
+  - title: "Papiro Militar"
+    url: /papiromilitar/    
+    
+  - title: "Textos"
+    url: /textos/
+        
+  - title: "Trabalhos"
+    url: /trabalhos/
