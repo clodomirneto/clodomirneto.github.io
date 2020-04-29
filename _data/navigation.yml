@@ -3,8 +3,8 @@ main:
   - title: "Ensino"
     url: /ensino/
 
-  - title: "Lógica Modal"
-    url: /logicamodal/    
+  - title: "Lógica"
+    url: /logica/    
 
   - title: "Papiro Militar"
     url: /papiromilitar/    

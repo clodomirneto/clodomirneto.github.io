@@ -119,6 +119,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - images
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -173,7 +174,7 @@ collections:
   ensino:
     output: true
     permalink: /:collection/:path/
-  logicamodal:
+  logica:
     output: true
     permalink: /:collection/:path/
   papiromilitar:

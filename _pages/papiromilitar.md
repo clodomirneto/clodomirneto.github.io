@@ -25,7 +25,7 @@ As Escolas Militares são estabelecimentos de ensino militar do Exército Brasil
 
 * [IME - Instituto Militar de Engenharia](http://www.ime.eb.mil.br){:target="_blank"}
 
-Nessa página, iremos apresentar a resolução das Provas de Matemática dos seguintes Concursos de Admissão ao Exército Brasileiro.
+Nesta página, iremos apresentar a resolução das Provas de Matemática dos seguintes Concursos de Admissão ao Exército Brasileiro.
 
 <center>
 <a href="ime"><img src="/images/ime.jpg" /></a>
