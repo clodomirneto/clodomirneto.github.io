@@ -1,0 +1,911 @@
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Lógica Proposicional - Clodomir Neto</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="pt-BR">
+<meta property="og:site_name" content="Clodomir Neto">
+<meta property="og:title" content="Lógica Proposicional">
+
+
+  <link rel="canonical" href="http://localhost:4000/logicaproposicional/">
+  <meta property="og:url" content="http://localhost:4000/logicaproposicional/">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Clodomir Neto",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Clodomir Neto Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Clodomir Neto</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/ensino/">Ensino</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/logica/">Lógica</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/papiromilitar/">Papiro Militar</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/textos/">Textos</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/trabalhos/">Trabalhos</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/profile.png" class="author__avatar" alt="Clodomir Neto">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Clodomir Neto</h3>
+    <p class="author__bio">Professor EBTT - Matemática</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> IFCE Itapipoca - Brasil</li>
+      
+      
+      
+      
+        <li><a href="mailto:clodomir.neto@ifce.edu.br"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> E-mail</a></li>
+      
+      
+       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/clodomirneto"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <div class="archive">
+    
+      <h1 class="page__title">Lógica Proposicional</h1>
+    
+    <p><br /></p>
+
+<ul>
+  <li>
+    <p><strong>Lógica</strong>. É o estudo da legitimidade de argumentos.</p>
+  </li>
+  <li>
+    <p><strong>Argumento</strong>. É uma sequência de proposições na qual uma das proposições é a conclusão e as demais são as premissas.</p>
+  </li>
+  <li>
+    <p><strong>Proposição</strong>. Sentença declarativa na qual podemos atribuir um valor lógico.</p>
+  </li>
+  <li><strong>Leis do Pensamento</strong>
+    <ol>
+      <li>Princípio da identidade: Se uma proposição é verdadeira, então esta proposição é verdadeira.</li>
+      <li>Princípio da não-contradição: Uma proposição não pode ser verdadeira e falsa ao mesmo tempo.</li>
+      <li>Princípio do terceiro excluído: Toda proposição ou é verdadeira ou é falsa, nunca existindo um terceiro caso.</li>
+    </ol>
+  </li>
+  <li>
+    <p><strong>Lógica Formal</strong>. Investiga as estruturas das proposições e do raciocínio dedutivo, ignorando o conteúdo das proposições que venham a ser consideradas, para concentrar-se apenas em sua forma.</p>
+  </li>
+  <li><strong>Alfabeto</strong>. Dado um conjunto numerável $P$, o alfabeto proposicional sobre $P$ designa-se $Alf_{P}$ e é constituído por:
+    <ol>
+      <li>Símbolos Proposicionais: $A$, $B$, $C$, $\ldots$;</li>
+      <li>Símbolo $\bot$ (absurdo, contradição, falso);</li>
+      <li>Conectivos Proposicionais: $\neg$ (negação), $\wedge$, (conjunção), $\vee$ (disjunção), implicação ($\to$), bi-implicação ($\leftrightarrow$);</li>
+      <li>Símbolos de Pontuação: $($ , $)$.</li>
+    </ol>
+  </li>
+  <li><strong>Linguagem</strong>. A linguagem proposicional induzida por $Alf_{P}$ designa-se $L_{P}$ e é o conjunto definido por:
+    <ol>
+      <li>$p \in L_{P}$, qualquer que seja $p \in P$;</li>
+      <li>$\bot \in L_{P}$;</li>
+      <li>$(\neg \phi) \in L_{P}$, $(\phi \wedge \psi) \in L_{P}$, $(\phi \vee \psi) \in L_{P}$, $(\phi \to \psi) \in L_{P}$, $(\phi \leftrightarrow \psi) \in L_{P}$, quaisquer que sejam $\phi, \, \psi \in L_{P}$.</li>
+    </ol>
+  </li>
+</ul>
+
+<p>$\quad$ Os elementos de $L_{P}$ são as fórmulas da linguagem proposicional induzida por $Alf_{P}$, também chamada de fórmula bem formada (fbf).</p>
+
+<ul>
+  <li><strong>Dedução Natural</strong></li>
+</ul>
+
+<p><em>1.</em> Absurso ($\bot E$): Se uma derivação chega a uma contradição, então pode-se deduzir a validade de qualquer proposição.</p>
+
+<center>
+$\dfrac{\bot}{\phi} \bot E$
+</center>
+
+<p><em>2.</em> Absurdo clássico (PBC): Exibida uma derivação de uma contradição a partir de uma hipótese $\neg \phi$, descarta-se a hipótese e infere-se $\phi$.</p>
+
+<center>
+$
+\begin{array}{c}
+\hspace{-1.5cm} [\neg \phi]^{\alpha} \\
+\hspace{-2cm} \vdots \\
+\dfrac{\bot}{\phi} PBC, \alpha
+\end{array}
+$
+</center>
+
+<p><em>3.</em> Introdução da negação ($\neg$I): Exibida uma derivação de uma contradição a partir de uma hipótese $\phi$, descarta-se a hipótese e infere-se $\neg \phi$.</p>
+
+<center>
+$
+\begin{array}{c}
+\hspace{-1cm} [\phi]^{\alpha} \\
+\hspace{-1.4cm} \vdots \\
+\dfrac{\bot}{\neg \phi} \neg I, \alpha
+\end{array}
+$
+</center>
+
+<p><em>4.</em> Eliminação da negação ($\neg$E): De quaisquer fbfs $\neg \phi$ e $\phi$, infere-se $\bot$.</p>
+
+<center>
+$\dfrac{\neg \phi \qquad \phi}{\bot} \neg E$
+</center>
+
+<p><em>5.</em> Introdução da conjunção ($\wedge$I): De quaisquer fbfs $\phi$ e $\psi$, infere-se a conjunção $\phi \wedge \psi$.</p>
+
+<center>
+$\dfrac{\phi \qquad \psi}{\phi \wedge \psi} \wedge I$
+</center>
+
+<p><em>6.</em> Eliminação da conjunção ($\wedge$E): De uma conjunção infere-se cada um de seus conjunctos.</p>
+
+<center>
+$
+\begin{array}{cc}
+\dfrac{\phi \wedge \psi}{\phi} \wedge E_{1} \qquad &amp; \dfrac{\phi \wedge \psi}{\psi} \wedge E_{2}
+\end{array}
+$
+</center>
+
+<p><em>7.</em> Introdução da disjunção ($\vee$I): De uma fbf $\phi$, infere-se a disjunção de $\phi$ com qualquer fbf.</p>
+
+<center>
+$
+\begin{array}{cc}
+\dfrac{\phi}{\phi \vee \psi} \vee E_{1} \qquad &amp; \dfrac{\psi}{\phi \vee \psi} \vee E_{2}
+\end{array}
+$
+</center>
+
+<p><em>8.</em> Eliminação da disjunção ($\vee$E): De fbfs $\phi \vee \psi$, $\phi \to \theta$ e $\psi \to \theta$, infere-se $\theta$.</p>
+
+<center>
+$
+\begin{array}{c}
+\hspace{0.5cm} [\phi]^{\alpha} \hspace{0.5cm} [\psi]^{\beta} \\
+\hspace{0.3cm}\vdots \hspace{1.4cm} \vdots \\
+\dfrac{\phi \vee \psi \qquad \theta \qquad \theta}{\theta} \vee E, \alpha, \beta
+\end{array}
+$
+</center>
+
+<p><em>9.</em> Introdução da implicação ($\to$I): Exibida uma derivação de uma fbf $\psi$ a partir de uma hipótese $\phi$, descarta-se a hipótese e infere-se $\phi \to \psi$.</p>
+
+<center>
+$
+\begin{array}{c}
+\hspace{-1.5cm} [\phi]^{\alpha} \\
+\hspace{-1.8cm} \vdots \\
+\dfrac{\psi}{\phi \to \psi} \to I, \alpha
+\end{array}
+$
+</center>
+
+<p><em>10.</em> Eliminação da implicação ($\to$E): De fbfs $\phi \to \psi$ e $\phi$, infere-se $\psi$.</p>
+
+<center>
+$\dfrac{\phi \to \psi \qquad \phi}{\psi} \to E$
+</center>
+
+<p><em>11.</em> Introdução da bi-implicação ($\leftrightarrow$I): De fbfs $\phi \to \psi$ e $\psi \to \phi$, infere-se $\phi \leftrightarrow \psi$.</p>
+
+<center>
+$\dfrac{\phi \to \psi \qquad \psi \to \phi}{\phi \leftrightarrow \psi} \leftrightarrow I$
+</center>
+
+<p><em>12.</em> Eliminação da bi-implicação ($\leftrightarrow$E): De uma fbf $\phi \leftrightarrow \psi$, infere-se $\phi \to \psi$ e $\psi \to \phi$.</p>
+
+<center>
+$
+\begin{array}{cc}
+\dfrac{\phi \leftrightarrow \psi}{\phi \to \psi} \leftrightarrow E_{1} \qquad &amp; \dfrac{\phi \leftrightarrow \psi}{\psi \to \phi} \leftrightarrow E_{2}
+\end{array}
+$
+</center>
+
+<ul>
+  <li><strong>Derivações</strong></li>
+</ul>
+
+<p><em>1.</em> Absorção (ABS): $A \to B \vdash A \to (A \wedge B)$</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>$A \to B$</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>$A$</td>
+      <td>$H(\to)$</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>$B$</td>
+      <td>$\to E, 1, 2$</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>$A \wedge B$</td>
+      <td>$\wedge I, 2, 3$</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>$A \to (A \wedge B)$</td>
+      <td>$\to I, 2-4$</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">B</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">abs</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">B</span><span class="o">).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w"> </span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P1</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>2.</em> Silogismo Hipotético (SH): $A \to B, B \to C \vdash A \to C$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="no">C</span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">B</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P2</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">C</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">sh</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">C</span><span class="pi">.</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P2</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P1</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>3.</em> Silogismo Disjuntivo (SD): $A \vee B, \neg A \vdash B$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">B</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P2</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="nv">~A</span><span class="o">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">sd</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">B</span><span class="pi">.</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="no">contradiction</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>4.</em> Modus Tollens (MT): $A \to B, \neg B \vdash \neg A$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">B</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P2</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="nv">~B</span><span class="o">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">mt</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="nv">~A</span><span class="o">.</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">not</span><span class="pi">.</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">not</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="no">P2</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P2</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P1</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>5.</em> Dilema Construtivo (DC): $A \vee B, A \to C, B \to D \vdash C \vee D$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="no">C</span><span class="w"> </span><span class="no">D</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">B</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P2</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">C</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P3</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">D</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">dc</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">C</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">D</span><span class="pi">.</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P2</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P3</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>6.</em> Dilema Destrutivo (DD): $\neg C \vee \neg D, A \to C, B \to D \vdash \neg A \vee \neg B$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="no">C</span><span class="w"> </span><span class="no">D</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="nv">~C</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="nv">~D</span><span class="o">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P2</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">C</span><span class="pi">.</span><span class="w">
+</span><span class="no">Hypothesis</span><span class="w"> </span><span class="no">P3</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">D</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">dd</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="nv">~A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="nv">~B</span><span class="o">.</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">P1</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hnc</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hnd</span><span class="o">].</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">not</span><span class="pi">.</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">not</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="no">Hnc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">Hnc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P2</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">not</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">not</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="no">Hnd</span><span class="pi">.</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">Hnd</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">P3</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>7.</em> Transposição (TRANS): $\vdash (A \to B) \leftrightarrow (\neg B \to \neg A)$</p>
+
+<p><em>8.</em> Implicação Material (IM): $\vdash (A \to B) \leftrightarrow (\neg A \vee B)$</p>
+
+<p><em>9.</em> Exportação (EXP): $\vdash ((A \wedge B) \to C) \leftrightarrow (A \to (B \to C))$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">P</span><span class="w"> </span><span class="no">Q</span><span class="w"> </span><span class="no">R</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">exp</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="o">((</span><span class="no">P</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">Q</span><span class="o">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">R</span><span class="o">)</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">(</span><span class="no">P</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="o">(</span><span class="no">Q</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="no">R</span><span class="o">)).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hpqr</span><span class="pi">.</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hp</span><span class="pi">.</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hq</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">Hpqr</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hp</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hq</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hpqr</span><span class="pi">.</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hpq</span><span class="pi">.</span><span class="w">
+</span><span class="kp">apply</span><span class="w"> </span><span class="no">Hpqr</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hpq</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hp</span><span class="w"> </span><span class="no">Hq</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hp</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hpq</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hp</span><span class="w"> </span><span class="no">Hq</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hq</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>10.</em> Tautologia (TAUT): $\vdash A \leftrightarrow (A \wedge A)$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">taut_and</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">A</span><span class="o">).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Haa</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Haa</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Ha1</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>11.</em> Tautologia (TAUT): $\vdash A \leftrightarrow (A \vee A)$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">taut_or</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">A</span><span class="o">).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Haa</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Haa</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Ha1</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha1</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>12.</em> Comutação (COM): $\vdash (A \wedge B) \leftrightarrow (B \wedge A)$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">com_and</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">B</span><span class="o">)</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">(</span><span class="no">B</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">A</span><span class="o">).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hab</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hab</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hab</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hba</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hba</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hb</span><span class="w"> </span><span class="no">Ha</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hba</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hb</span><span class="w"> </span><span class="no">Ha</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>13.</em> Comutação (COM): $\vdash (A \vee B) \leftrightarrow (B \vee A)$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">com_or</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">B</span><span class="o">)</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">(</span><span class="no">B</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">A</span><span class="o">).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hab</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hab</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Hba</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hba</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hb</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Ha</span><span class="o">].</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>14.</em> Lei de De Morgan (DM): $\vdash \neg (A \wedge B) \leftrightarrow (\neg A \vee \neg B)$</p>
+
+<p><em>15.</em> Lei de De Morgan (DM): $\vdash \neg (A \vee B) \leftrightarrow (\neg A \wedge \neg B)$</p>
+
+<p><em>16.</em> Associação (ASSOC): $\vdash (A \wedge (B \wedge C)) \leftrightarrow ((A \wedge B) \wedge C)$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="no">C</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">assoc_and</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="o">(</span><span class="no">B</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">C</span><span class="o">))</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">((</span><span class="no">A</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">B</span><span class="o">)</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">C</span><span class="o">).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Habc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hbc</span><span class="o">].</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hbc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hb</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hbc</span><span class="o">].</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hbc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hb</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hc</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Habc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hab</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hab</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hab</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hab</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hab</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hc</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>17.</em> Associação (ASSOC): $\vdash (A \vee (B \vee C)) \leftrightarrow ((A \vee B) \vee C)$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="no">C</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">assoc_or</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="o">(</span><span class="no">B</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">C</span><span class="o">))</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">((</span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">B</span><span class="o">)</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">C</span><span class="o">).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Habc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="o">[</span><span class="no">Hb</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hc</span><span class="o">]].</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hc</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Habc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hb</span><span class="o">]</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hc</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>18.</em> Distribuição (DIST): $\vdash (A \wedge (B \vee C)) \leftrightarrow ((A \wedge B) \vee (A \wedge C))$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="no">C</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">dist_and</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="o">(</span><span class="no">B</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">C</span><span class="o">))</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">((</span><span class="no">A</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">B</span><span class="o">)</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">C</span><span class="o">)).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Habc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hbc</span><span class="o">].</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hbc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hb</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hc</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Habc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hab</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hac</span><span class="o">].</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hab</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hab</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hac</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hac</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hc</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+<p><em>19.</em> Distribuição (DIST): $\vdash (A \vee (B \wedge C)) \leftrightarrow ((A \vee B) \wedge (A \vee C))$</p>
+
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Section</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span><span class="k">Variables</span><span class="w"> </span><span class="no">A</span><span class="w"> </span><span class="no">B</span><span class="w"> </span><span class="no">C</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kr">Prop</span><span class="pi">.</span><span class="w">
+</span><span class="k">Theorem</span><span class="w"> </span><span class="no">dist_or</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="o">(</span><span class="no">B</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="no">C</span><span class="o">))</span><span class="w"> </span><span class="o">&lt;-&gt;</span><span class="w"> </span><span class="o">((</span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">B</span><span class="o">)</span><span class="w"> </span><span class="o">/\</span><span class="w"> </span><span class="o">(</span><span class="no">A</span><span class="w"> </span><span class="o">\/</span><span class="w"> </span><span class="no">C</span><span class="o">)).</span><span class="w">
+</span><span class="k">Proof</span><span class="pi">.</span><span class="w">
+</span><span class="kp">unfold</span><span class="w"> </span><span class="no">iff</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Habc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="o">[</span><span class="no">Hb</span><span class="w"> </span><span class="no">Hc</span><span class="o">]].</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="o">*</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="o">+</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hc</span><span class="pi">.</span><span class="w">
+</span><span class="o">-</span><span class="w">
+</span><span class="kp">intro</span><span class="w"> </span><span class="no">Habc</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Habc</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Hab</span><span class="w"> </span><span class="no">Hac</span><span class="o">].</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hab</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hb</span><span class="o">].</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="kp">destruct</span><span class="w"> </span><span class="no">Hac</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="o">[</span><span class="no">Ha</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="no">Hc</span><span class="o">].</span><span class="w">
+</span><span class="no">left</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Ha</span><span class="pi">.</span><span class="w">
+</span><span class="no">right</span><span class="pi">.</span><span class="w">
+</span><span class="kp">split</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hb</span><span class="pi">.</span><span class="w">
+</span><span class="ne">exact</span><span class="w"> </span><span class="no">Hc</span><span class="pi">.</span><span class="w">
+</span><span class="k">Qed</span><span class="pi">.</span><span class="w">
+</span><span class="k">End</span><span class="w"> </span><span class="no">PropositionalLogic</span><span class="pi">.</span><span class="w">
+</span></code></pre></div></div>
+
+  </div>
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Acompanhe em</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/clodomirneto"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Clodomir Neto. Feito por <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+
