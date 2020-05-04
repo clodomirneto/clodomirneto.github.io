@@ -7,19 +7,6 @@ author_profile: true
 
 <br />
 
-* **Lógica**. É o estudo da legitimidade de argumentos.
-
-* **Argumento**. É uma sequência de proposições na qual uma das proposições é a conclusão e as demais são as premissas.
-
-* **Proposição**. Sentença declarativa na qual podemos atribuir um valor lógico.
-
-* **Leis do Pensamento**
-1. Princípio da identidade: Se uma proposição é verdadeira, então esta proposição é verdadeira.
-2. Princípio da não-contradição: Uma proposição não pode ser verdadeira e falsa ao mesmo tempo.
-3. Princípio do terceiro excluído: Toda proposição ou é verdadeira ou é falsa, nunca existindo um terceiro caso.
-
-* **Lógica Formal**. Investiga as estruturas das proposições e do raciocínio dedutivo, ignorando o conteúdo das proposições que venham a ser consideradas, para concentrar-se apenas em sua forma.
-
 * **Alfabeto**. Dado um conjunto numerável $P$, o alfabeto proposicional sobre $P$ designa-se $Alf_{P}$ e é constituído por:
 1. Símbolos Proposicionais: $A$, $B$, $C$, $\ldots$;
 2. Símbolo $\bot$ (absurdo, contradição, falso);

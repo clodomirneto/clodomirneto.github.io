@@ -14,3 +14,5 @@ Nesta página encontraremos alguns desenvolvimentos da Lógica Computacional.
 * [Lógica de Primeira Ordem](/logicaprimeiraordem/)
 
 * [Lógica Modal](/logicamodal/)
+
+* [Lógica Linear](/logicalinear/)
