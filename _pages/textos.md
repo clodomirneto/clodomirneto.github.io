@@ -5,8 +5,6 @@ permalink: /textos/
 author_profile: true
 ---
 
-<br />
-
 * [Acróstico - Maria Nelse Silva](/textos/acrostico)
 
 * [Intertexto - Bertold Bretch](/textos/intertexto)
