@@ -7,7 +7,11 @@ author_profile: true
 
 * [Acróstico - Maria Nelse Silva](/textos/acrostico)
 
+* [Esse Brasil! - Clodomir Silva Lima Neto](/textos/esse_brasil)
+
 * [Intertexto - Bertold Bretch](/textos/intertexto)
+
+* [Significado do Livro - Ronaldo Simões Coelho](/textos/significado_do_livro)
 
 * [Soneto de Fidelidade - Vinicius de Moraes](/textos/soneto_de_fidelidade)
 

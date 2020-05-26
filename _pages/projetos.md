@@ -11,4 +11,4 @@ author_profile: true
 
 * [*Blog* Manual dos Números](https://manualdosnumeros.blogspot.com/){:target="_blank"}
 
-* [*Blog* GEICFM](https://geicfm.blogspot.com/){:target="_blank"}
+* [*Blog* GEICFM](https://geicfmifce.blogspot.com/){:target="_blank"}
