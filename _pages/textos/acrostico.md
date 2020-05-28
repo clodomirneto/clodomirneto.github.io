@@ -1,5 +1,5 @@
 ---
-title: 'Acróstico'
+title: "Acróstico"
 permalink: /textos/acrostico
 ---
 

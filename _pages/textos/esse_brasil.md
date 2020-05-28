@@ -1,5 +1,5 @@
 ---
-title: 'Esse Brasil!'
+title: "Esse Brasil!"
 permalink: /textos/esse_brasil
 ---
 

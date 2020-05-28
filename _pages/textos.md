@@ -9,6 +9,8 @@ author_profile: true
 
 * [Esse Brasil! - Clodomir Silva Lima Neto](/textos/esse_brasil)
 
+* [Incerteza - Maria Nelse Silva](/textos/incerteza)
+
 * [Intertexto - Bertold Bretch](/textos/intertexto)
 
 * [Significado do Livro - Ronaldo Simões Coelho](/textos/significado_do_livro)

@@ -1,5 +1,5 @@
 ---
-title: 'Significado do Livro'
+title: "Significado do Livro"
 permalink: /textos/significado_do_livro
 ---
 

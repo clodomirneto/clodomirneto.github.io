@@ -1,27 +1,27 @@
 ---
-title: 'Intertexto'
+title: "Intertexto"
 permalink: /textos/intertexto
 ---
 
-Bertolt Brecht <br />
+Bertolt Brecht
 
-Primeiro levaram os negros <br />
-Mas não me importei com isso <br />
-Eu não era negro <br />
+Primeiro levaram os negros  
+Mas não me importei com isso  
+Eu não era negro
 
-Em seguida levaram alguns operários <br />
-Mas não me importei com isso <br />
-Eu também não era operário <br />
+Em seguida levaram alguns operários  
+Mas não me importei com isso  
+Eu também não era operário  
 
-Depois prenderam os miseráveis <br />
-Mas não me importei com isso <br />
-Porque eu não sou miserável <br />
+Depois prenderam os miseráveis  
+Mas não me importei com isso  
+Porque eu não sou miserável
 
-Depois agarraram uns desempregados <br />
-Mas como tenho meu emprego <br />
-Também não me importei <br />
+Depois agarraram uns desempregados  
+Mas como tenho meu emprego  
+Também não me importei
 
-Agora estão me levando <br />
-Mas já é tarde. <br />
-Como eu não me importei com ninguém <br />
+Agora estão me levando  
+Mas já é tarde.  
+Como eu não me importei com ninguém  
 Ninguém se importa comigo.
