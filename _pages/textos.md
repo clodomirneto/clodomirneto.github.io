@@ -13,6 +13,8 @@ author_profile: true
 
 * [Intertexto - Bertold Bretch](/textos/intertexto)
 
+* [Recomeçar - Paulo Roberto Gaefke](/textos/recomecar)
+
 * [Significado do Livro - Ronaldo Simões Coelho](/textos/significado_do_livro)
 
 * [Soneto de Fidelidade - Vinicius de Moraes](/textos/soneto_de_fidelidade)

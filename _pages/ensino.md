@@ -7,6 +7,24 @@ author_profile: true
 
 <br />
 
+# 2020.2 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+IFCE Itapipoca | Álgebra Linear | Licenciatura em Física
+IFCE Itapipoca | Matemática I | Técnico Integrado em Edificações
+IFCE Itapipoca | Matemática I | Técnico Integrado em Informática
+IFCE Itapipoca | Matemática III | Técnico Integrado em Edificações
+IFCE Itapipoca | Matemática III | Técnico Integrado em Informática
+IFCE Itapipoca | Matemática III | Técnico Integrado em Mecânica
+
+# 2020.1 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+IFCE Itapipoca | Cálculo Diferencial e Integral III | Licenciatura em Física
+IFCE Itapipoca | Matemática IV | Técnico Integrado em Edificações
+
 # 2020.1 - Aluno
 
 Instituição | Disciplina | Curso
@@ -14,20 +32,7 @@ Instituição | Disciplina | Curso
 UFRN | Estudo Orientado I  | Mestrado em Sistemas e Computação
 UFRN | Tópicos Avançados em Fundamentos da Computação VII | Mestrado em Sistemas e Computação
 
-# 2020.1
-
-Instituição | Disciplina | Curso
------------ | ---------- | -----
-IFCE Itapipoca | Álgebra Linear | Licenciatura em Física
-IFCE Itapipoca | Cálculo Diferencial e Integral III | Licenciatura em Física
-IFCE Itapipoca | Matemática I | Técnico Integrado em Edificações
-IFCE Itapipoca | Matemática I | Técnico Integrado em Informática
-IFCE Itapipoca | Matemática III | Técnico Integrado em Edificações
-IFCE Itapipoca | Matemática III | Técnico Integrado em Informática
-IFCE Itapipoca | Matemática III | Técnico Integrado em Mecânica
-IFCE Itapipoca | Matemática IV | Técnico Integrado em Edificações
-
-# 2019.2
+# 2019.2 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -39,7 +44,7 @@ IFCE Itapipoca | Matemática I | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática II | Técnico Integrado em Edificações
 IFCE Itapipoca | Matemática II | Técnico Integrado em Informática
 
-# 2019.1
+# 2019.1 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -53,7 +58,7 @@ IFCE Itapipoca | Matemática I | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática V | Técnico Integrado em Edificações
 IFCE Itapipoca | Matemática V | Técnico Integrado em Mecânica
 
-# 2018.2
+# 2018.2 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -63,7 +68,7 @@ IFCE Crateús | Matemática Básica II | Licenciatura em Matemática
 IFCE Crateús | Matemática III | Técnico Integrado em Química
 IFCE Crateús | Seminário | Licenciatura em Matemática
 
-# 2018.1
+# 2018.1 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -72,7 +77,7 @@ IFCE Crateús | Matemática Básica I | Licenciatura em Matemática
 IFCE Crateús | Matemática Elementar | Licenciatura em Física
 IFCE Crateús | Matemática III | Técnico Integrado em Química
 
-# 2017.2
+# 2017.2 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -82,7 +87,7 @@ IFCE Crateús | Geometria Analítica e Vetores | Licenciatura em Matemática
 IFCE Crateús | Matemática I | Técnico Integrado em Química
 IFCE Crateús | Matemática II | Técnico Integrado em Química
 
-# 2017.1
+# 2017.1 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -93,11 +98,18 @@ IFCE Crateús | Geometria Espacial | Licenciatura em Matemática
 IFCE Crateús | Matemática Básica I | Licenciatura em Matemática
 IFCE Crateús | Teoria dos Números | Licenciatura em Matemática
 
-# 2016
+# 2016 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 IFTO Araguatins | Matemática | Técnico Integrado em Agropecuária
+
+# 2015 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+Colégio Militar de Fortaleza | Matemática | 3° Ano
+Colégio Militar de Fortaleza | Matemática | CPrep
 
 # 2015.1 - Aluno
 
@@ -107,14 +119,7 @@ UCM | Lógica e Fundamentos da Matemática | Aperfeiçoamento em Matemática Fin
 UCM | Introdução à Álgebra | Aperfeiçoamento em Matemática Financeira e Álgebra
 UCM | Matemática Financeira e Estatística | Aperfeiçoamento em Matemática Financeira e Álgebra
 
-# 2015
-
-Instituição | Disciplina | Curso
------------ | ---------- | -----
-Colégio Militar de Fortaleza | Matemática | 3° Ano
-Colégio Militar de Fortaleza | Matemática | CPrep
-
-# 2014
+# 2014 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -122,7 +127,7 @@ Colégio Militar de Fortaleza | Matemática | 1° Ano
 Colégio Militar de Fortaleza | Matemática | 3° Ano
 Colégio Militar de Fortaleza | Matemática | CPrep
 
-# 2013.2
+# 2013.2 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -134,7 +139,7 @@ IFCE Canindé | Matemática | Extensão Mulheres Mil
 IFCE Canindé | Matemática Computacional | Tecnologia em Redes de Computadores
 IFCE Canindé | Matemática VI | Técnico Integrado em Telecomunicações
 
-# 2013.1
+# 2013.1 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -146,6 +151,13 @@ IFCE Canindé | Matemática IV | Técnico Integrado em Eventos
 IFCE Canindé | Matemática V | Técnico Integrado em Telecomunicações
 IFCE Canindé | Matemática VI | Técnico Integrado em Eventos
 
+# 2012.2 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+FLATED | Matemática Aplicada à Educação | Licenciatura em Pedagogia
+FLATED | Estatística Aplicada à Educação | Licenciatura em Pedagogia
+
 # 2012.2 - Aluno
 
 Instituição | Disciplina | Curso
@@ -155,12 +167,11 @@ UECE | História e Filosofia da Matemática | Especialização em Ensino de Mate
 UECE | Teoria dos Números | Especialização em Ensino de Matemática
 UECE | Metodologia do Ensino Superior | Especialização em Ensino de Matemática
 
-# 2012.2
+# 2012.1 -  Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
-FLATED | Matemática Aplicada à Educação | Licenciatura em Pedagogia
-FLATED | Estatística Aplicada à Educação | Licenciatura em Pedagogia
+EEEP Professor Antônio Valmir da Silva | Matemática | 1° Ano
 
 # 2012.1 - Aluno
 
@@ -176,23 +187,17 @@ UECE | Seminário Temático: Docência e Formação para o Ensino de Matemática
 UECE | Conjunto e Funções | Especialização em Ensino de Matemática
 UECE | Seminário Temático: Pesquisa | Especialização em Ensino de Matemática
 
-# 2012.1
+# 2011.2 -  Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
-EEEP Professor Antônio Valmir da Silva | Matemática | 1° Ano
+EEFM José Alexandre | Matemática | 1° Ano
 
 # 2011.2 - Aluno
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 UECE | Noções da Geometria Plana | Especialização em Ensino de Matemática
-
-# 2011.2
-
-Instituição | Disciplina | Curso
------------ | ---------- | -----
-EEFM José Alexandre | Matemática | 1° Ano
 
 # 2011.1 - Aluno
 
@@ -202,18 +207,27 @@ UnB | Introdução à Álgebra | Mestrado em Matemática
 UnB | Introdução à Análise | Mestrado em Matemática
 UnB | Seminário de Teoria dos Números | Mestrado em Matemática
 
-# 2010.2
+# 2010.2 - Aluno
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 UnB | Introdução à Probabilidades e Aplicações | Mestrado em Matemática
 UnB | Geometria Diferencial | Mestrado em Matemática
 
-# 2010.1
+# 2010.1 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 EEFM Vicente Arruda | Matemática | 2° Ano
+
+# 2009 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+EEFM CAIC Professora Francisca Estrela Torquato Firmeza | Matemática | 8° Ano
+EEFM Vicente Arruda | Matemática | 3° Ano
+EEIEF Maria das Dores Lima | Matemática | 6° Ano
+EEIEF Maria das Dores Lima | Matemática | 7° Ano
 
 # 2009.1 - Aluno
 
@@ -229,14 +243,12 @@ UFC | Estudos Sócio-Históricos e Culturais da Educação | Licenciatura em Mat
 UFC | Estrutura, Política e Gestão Educacional | Licenciatura em Matemática
 UFC | Didática I | Licenciatura em Matemática
 
-# 2009
+# 2008 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
-EEFM CAIC Professora Francisca Estrela Torquato Firmeza | Matemática | 8° Ano
-EEFM Vicente Arruda | Matemática | 3° Ano
-EEIEF Maria das Dores Lima | Matemática | 6° Ano
-EEIEF Maria das Dores Lima | Matemática | 7° Ano
+EEFM CAIC Professora Francisca Estrela Torquato Firmeza | Matemática | 9° Ano
+EEFM Vicente Arruda | Matemática | 2° Ano
 
 # 2008.2 - Aluno
 
@@ -256,13 +268,6 @@ UFC | Fundamentos de Matemática | Licenciatura em Matemática
 UFC | Estruturas Algébricas | Licenciatura em Matemática
 UFC | Estágio Supervisionado de Matemática III | Licenciatura em Matemática
 UFC | Mecânica II | Licenciatura em Matemática
-
-# 2008
-
-Instituição | Disciplina | Curso
------------ | ---------- | -----
-EEFM CAIC Professora Francisca Estrela Torquato Firmeza | Matemática | 9° Ano
-EEFM Vicente Arruda | Matemática | 2° Ano
 
 # 2007.2 - Aluno
 
@@ -350,23 +355,23 @@ UFT | Leitura e Prática de Produção de Texto I | Bacharelado em Ciências Con
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
-UFT | Cálculo Diferencial e Integral II | Bacharelado em Ciências da Computação
-UFT | Estruturas de Dados I | Bacharelado em Ciências da Computação
-UFT | Física para Computação | Bacharelado em Ciências da Computação
-UFT | Geometria Analítica e Álgebra Linear | Bacharelado em Ciências da Computação
-UFT | Programação Avançada | Bacharelado em Ciências da Computação
-UFT | Inglês II | Bacharelado em Ciências da Computação
+Unitins | Cálculo Diferencial e Integral II | Bacharelado em Ciências da Computação
+Unitins | Estruturas de Dados I | Bacharelado em Ciências da Computação
+Unitins | Física para Computação | Bacharelado em Ciências da Computação
+Unitins | Geometria Analítica e Álgebra Linear | Bacharelado em Ciências da Computação
+Unitins | Programação Avançada | Bacharelado em Ciências da Computação
+Unitins | Inglês II | Bacharelado em Ciências da Computação
 
 # 2001.2 - Aluno
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
-UFT | Cálculo Diferencial e Integral I | Bacharelado em Ciências da Computação
-UFT | Física I | Bacharelado em Ciências da Computação
-UFT | Introdução à Ciência da Computação | Bacharelado em Ciências da Computação
-UFT | Introdução à Programação | Bacharelado em Ciências da Computação
-UFT | Inglês I | Bacharelado em Ciências da Computação
-UFT | Leitura e Prática de Produção de Texto | Bacharelado em Ciências da Computação
+Unitins | Cálculo Diferencial e Integral I | Bacharelado em Ciências da Computação
+Unitins | Física I | Bacharelado em Ciências da Computação
+Unitins | Introdução à Ciência da Computação | Bacharelado em Ciências da Computação
+Unitins | Introdução à Programação | Bacharelado em Ciências da Computação
+Unitins | Inglês I | Bacharelado em Ciências da Computação
+Unitins | Leitura e Prática de Produção de Texto | Bacharelado em Ciências da Computação
 
 # 2001.1 - Aluno
 
@@ -384,31 +389,31 @@ ULBRA TO | Fundamentos de Matemática | Bacharelado em Sistemas de Informação
 Instituição | Curso
 ----------- | -----
 Centro Educacional Martinho Lutero | 3º Ano
-Colégio Padrão | 3º Ano
+Colégio Anglo Centro | 3º Ano
 
 # 1999 - Aluno
 
 Instituição | Curso
 ----------- | -----
-Coleǵio Padrão | 2º Ano
+Coleǵio Anglo Centro | 2º Ano
 
 # 1998 - Aluno
 
 Instituição | Curso
 ----------- | -----
-Coleǵio Padrão | 1º Ano
+Coleǵio Anglo Centro | 1º Ano
 
 # 1997 - Aluno
 
 Instituição | Curso
 ----------- | -----
-Coleǵio Padrão | 8ª Série
+Coleǵio Anglo Centro | 8ª Série
 
 # 1996 - Aluno
 
 Instituição | Curso
 ----------- | -----
-Coleǵio Padrão | 7ª Série
+Coleǵio Anglo Centro | 7ª Série
 
 # 1995 - Aluno
 
