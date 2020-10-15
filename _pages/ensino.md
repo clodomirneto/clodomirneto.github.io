@@ -12,11 +12,17 @@ author_profile: true
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 IFCE Itapipoca | Álgebra Linear | Licenciatura em Física
-IFCE Itapipoca | Matemática I | Técnico Integrado em Edificações
-IFCE Itapipoca | Matemática I | Técnico Integrado em Informática
-IFCE Itapipoca | Matemática III | Técnico Integrado em Edificações
-IFCE Itapipoca | Matemática III | Técnico Integrado em Informática
-IFCE Itapipoca | Matemática III | Técnico Integrado em Mecânica
+IFCE Itapipoca | Matemática IV | Técnico Integrado em Edificações
+IFCE Itapipoca | Matemática V | Técnico Integrado em Edificações
+IFCE Itapipoca | Matemática V | Técnico Integrado em Mecânica
+
+# 2020.2 - Aluno
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+UFRN | Curso de Iniciação à Docência | Mestrado em Sistemas e Computação
+UFRN | Estrutura de Dados e Algoritmos | Mestrado em Sistemas e Computação
+UFRN | Estudo Orientado II  | Mestrado em Sistemas e Computação
 
 # 2020.1 - Professor
 

@@ -4,6 +4,8 @@ source "https://rubygems.org"
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
+#     sudo apt install git - sudo apt install ruby-full - sudo apt install rubygems - gem install jekyll bundler 
+#     bundle install - sudo apt-get install libxslt-dev libxml2-dev zlib1g-dev (nokogiri)
 #     bundle exec jekyll serve
 #
 # This will help ensure the proper Jekyll version is running.
