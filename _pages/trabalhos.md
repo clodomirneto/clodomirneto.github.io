@@ -15,7 +15,7 @@ Evento: I Seminário de Iniciação Científica e Tecnológica.
 
 Ano: 2019.
 
-[Arquivo](/files/09_SEMIC.pdf){:target="_blank"}
+[Arquivo](/assets/files/09_SEMIC.pdf){:target="_blank"}
 
 <br />
 
@@ -27,7 +27,7 @@ Revista: Revista Educação e Cultura Contemporânea, v. 15, n. 40.
 
 Ano: 2018.
 
-[Arquivo](/files/08_RECC.pdf){:target="_blank"}
+[Arquivo](/assets/files/08_RECC.pdf){:target="_blank"}
 
 <br />
 
@@ -39,7 +39,7 @@ Evento: III Congresso sobre Tecnologias na Educação.
 
 Ano: 2018.
 
-[Arquivo](/files/07_CTRL+E.pdf){:target="_blank"}
+[Arquivo](/assets/files/07_CTRL+E.pdf){:target="_blank"}
 
 <br />
 
@@ -51,7 +51,7 @@ Evento: XXII Workshop de Informática na Escola.
 
 Ano: 2016.
 
-[Arquivo](/files/06_CBIE.pdf){:target="_blank"}
+[Arquivo](/assets/files/06_CBIE.pdf){:target="_blank"}
 
 <br />
 
@@ -63,7 +63,7 @@ Evento: V Congresso Brasileiro de Informática na Educação.
 
 Ano: 2016.
 
-[Arquivo](/files/05_CBIE.pdf){:target="_blank"}
+[Arquivo](/assets/files/05_CBIE.pdf){:target="_blank"}
 
 <br />
 
@@ -75,7 +75,7 @@ Evento: IV Congresso Brasileiro de Informática na Educação.
 
 Ano: 2015.
 
-[Arquivo](/files/04_CBIE.pdf){:target="_blank"}
+[Arquivo](/assets/files/04_CBIE.pdf){:target="_blank"}
 
 <br />
 
@@ -87,7 +87,7 @@ Evento: VIII Encontro Regional de Matemática Aplicada e Computacional.
 
 Ano: 2008.
 
-[Arquivo](/files/03_ERMAC.pdf){:target="_blank"}
+[Arquivo](/assets/files/03_ERMAC.pdf){:target="_blank"}
 
 <br />
 
@@ -99,7 +99,7 @@ Evento: XXVI Encontro Universitário de Iniciação à Pesquisa.
 
 Ano: 2007.
 
-[Arquivo](/files/02_EUIP.pdf){:target="_blank"}
+[Arquivo](/assets/files/02_EUIP.pdf){:target="_blank"}
 
 <br />
 
@@ -111,4 +111,4 @@ Evento: II Jornada de Iniciação Científica do Centro Universitário Lueterano
 
 Ano: 2002.
 
-[Arquivo](/files/01_JIC.pdf){:target="_blank"}
+[Arquivo](/assets/files/01_JIC.pdf){:target="_blank"}
