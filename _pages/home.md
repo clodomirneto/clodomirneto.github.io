@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: archive
-title: "Clodomir Silva Lima Neto"
+title: "Início"
 author_profile: true
 excerpt: "About me"
 redirect_from: 
@@ -13,10 +13,7 @@ Atualmente sou professor EBTT, classe DII, área Matemática, lotado no Campus I
 
 # Endereço de Correspondência
 
-IFCE Itapipoca - Gabinete 103
-
-Avenida da Universidade, 102
-
-Madalenas - Itapipoca - Ceará
-
+IFCE Itapipoca - Gabinete 103 <br />
+Avenida da Universidade, 102 <br />
+Madalenas - Itapipoca - Ceará <br />
 CEP: 62.505-090

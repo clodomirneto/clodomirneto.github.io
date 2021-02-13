@@ -1,13 +1,10 @@
-# main links links
+# main links
 main:
   - title: "Ensino"
     url: /ensino/
-
   - title: "Projetos"
-    url: /projetos/    
-    
+    url: /projetos/
   - title: "Textos"
     url: /textos/
-        
   - title: "Trabalhos"
     url: /trabalhos/

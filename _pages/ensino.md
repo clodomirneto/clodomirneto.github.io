@@ -7,6 +7,18 @@ author_profile: true
 
 <br />
 
+# 2021.1 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+IFCE Itapipoca | Cálculo Diferencial e Integral IV | Licenciatura em Física
+IFCE Itapipoca | Geometria Analítica | Licenciatura em Física
+IFCE Itapipoca | Matemática Elementar | Licenciatura em Física
+IFCE Itapipoca | Matemática I | Técnico Integrado em Edificações
+IFCE Itapipoca | Matemática I | Técnico Integrado em Informática
+IFCE Itapipoca | Matemática I | Técnico Integrado em Mecânica
+IFCE Itapipoca | Matemática II | Técnico Integrado em Informática
+
 # 2020.2 - Professor
 
 Instituição | Disciplina | Curso
@@ -401,25 +413,25 @@ Colégio Anglo Centro | 3º Ano
 
 Instituição | Curso
 ----------- | -----
-Coleǵio Anglo Centro | 2º Ano
+Colégio Anglo Centro | 2º Ano
 
 # 1998 - Aluno
 
 Instituição | Curso
 ----------- | -----
-Coleǵio Anglo Centro | 1º Ano
+Colégio Anglo Centro | 1º Ano
 
 # 1997 - Aluno
 
 Instituição | Curso
 ----------- | -----
-Coleǵio Anglo Centro | 8ª Série
+Colégio Anglo Centro | 8ª Série
 
 # 1996 - Aluno
 
 Instituição | Curso
 ----------- | -----
-Coleǵio Anglo Centro | 7ª Série
+Colégio Anglo Centro | 7ª Série
 
 # 1995 - Aluno
 
