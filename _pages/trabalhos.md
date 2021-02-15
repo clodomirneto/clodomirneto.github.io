@@ -7,6 +7,18 @@ author_profile: true
 
 <br />
 
+*10.* Apresentação Oral
+
+Título: O Uso do Blog Manual dos Números no Ensino de Matemática.
+
+Evento: I Congresso Internacional Virtual de Pesquisa.
+
+Ano: 2020.
+
+[Arquivo](/assets/files/10_CONINP.pdf){:target="_blank"}
+
+<br />
+
 *9.* Apresentação Oral
 
 Título: O Uso do Blog Manual dos Números no Ensino de Matemática.
