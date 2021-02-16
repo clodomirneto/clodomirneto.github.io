@@ -13,10 +13,14 @@ author_profile: true
 
 * [Intertexto - Bertold Bretch](/textos/intertexto)
 
+* [Não te amo mais - Clarice Lispector](/textos/nao_te_amo_mais)
+
 * [Recomeçar - Paulo Roberto Gaefke](/textos/recomecar)
 
 * [Significado do Livro - Ronaldo Simões Coelho](/textos/significado_do_livro)
 
 * [Soneto de Fidelidade - Vinicius de Moraes](/textos/soneto_de_fidelidade)
+
+* [Sonhe - Clarice Lispector](/textos/sonhe)
 
 * [Poesia de um cão abandonado - Renato Oliveira](/textos/poesia_de_um_cao_abandonado)
