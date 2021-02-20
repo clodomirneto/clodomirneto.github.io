@@ -9,11 +9,15 @@ author_profile: true
 
 * [Esse Brasil! - Clodomir Silva Lima Neto](/textos/esse_brasil)
 
+* [Identidade - Pedro Bandeira](/textos/identidade)
+
 * [Incerteza - Maria Nelse Silva](/textos/incerteza)
 
 * [Intertexto - Bertold Bretch](/textos/intertexto)
 
 * [Não te amo mais - Clarice Lispector](/textos/nao_te_amo_mais)
+
+* [Poesia de um cão abandonado - Renato Oliveira](/textos/poesia_de_um_cao_abandonado)
 
 * [Recomeçar - Paulo Roberto Gaefke](/textos/recomecar)
 
@@ -23,4 +27,4 @@ author_profile: true
 
 * [Sonhe - Clarice Lispector](/textos/sonhe)
 
-* [Poesia de um cão abandonado - Renato Oliveira](/textos/poesia_de_um_cao_abandonado)
+* [Tenho tanto sentimento - Fernando Pessoa](/textos/tenho_tanto_sentimento)
