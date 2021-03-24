@@ -16,7 +16,6 @@ IFCE Itapipoca | Geometria Analítica | Licenciatura em Física
 IFCE Itapipoca | Matemática Elementar | Licenciatura em Física
 IFCE Itapipoca | Matemática I | Técnico Integrado em Edificações
 IFCE Itapipoca | Matemática I | Técnico Integrado em Informática
-IFCE Itapipoca | Matemática I | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática II | Técnico Integrado em Informática
 
 # 2020.2 - Professor
