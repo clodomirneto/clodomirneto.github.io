@@ -100,6 +100,7 @@ author:
   location         : "IFCE Itapipoca - Brasil"
   email            : "clodomirneto@gmail.com"
   github           : "clodomirneto"
+  instagram        : "clodomirslneto"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -118,7 +119,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      # url: "https://instagram.com/clodomirslneto"
 
 # Site Footer
 footer:

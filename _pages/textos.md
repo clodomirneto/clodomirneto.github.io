@@ -23,6 +23,8 @@ author_profile: true
 
 * [Significado do Livro - Ronaldo Simões Coelho](/textos/significado_do_livro)
 
+* [Socorro - Alice Ruiz](/textos/socorro)
+
 * [Soneto de Fidelidade - Vinicius de Moraes](/textos/soneto_de_fidelidade)
 
 * [Sonhe - Clarice Lispector](/textos/sonhe)
