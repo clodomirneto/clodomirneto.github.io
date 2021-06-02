@@ -17,9 +17,13 @@ author_profile: true
 
 * [Não te amo mais - Clarice Lispector](/textos/nao_te_amo_mais)
 
+* [Poema no Meio do Caminho - Carlos Drummond de Andrade](/textos/poema_no_meio_do_caminho)
+
 * [Poesia de um cão abandonado - Renato Oliveira](/textos/poesia_de_um_cao_abandonado)
 
 * [Recomeçar - Paulo Roberto Gaefke](/textos/recomecar)
+
+* [Seiscentos e Sessenta e Seis - Mario Quintana](/textos/seiscentos_e_sessenta_e_seis)
 
 * [Significado do Livro - Ronaldo Simões Coelho](/textos/significado_do_livro)
 
