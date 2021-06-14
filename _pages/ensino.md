@@ -5,7 +5,15 @@ title: "Ensino"
 author_profile: true
 ---
 
-<br />
+# 2021.2 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+IFCE Itapipoca | Geometria Analítica | Licenciatura em Física
+IFCE Itapipoca | Matemática Aplicada | Técnico Subsequente em Mecânica
+IFCE Itapipoca | Matemática Elementar | Licenciatura em Física
+IFCE Itapipoca | Matemática I | Técnico Integrado em Mecânica
+
 
 # 2021.1 - Professor
 
