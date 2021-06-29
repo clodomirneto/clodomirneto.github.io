@@ -10,9 +10,11 @@ author_profile: true
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 IFCE Itapipoca | Geometria Analítica | Licenciatura em Física
-IFCE Itapipoca | Matemática Aplicada | Técnico Subsequente em Mecânica
-IFCE Itapipoca | Matemática Elementar | Licenciatura em Física
+IFCE Itapipoca | Matemática Aplicada | Técnico Subsequente em Edificações
 IFCE Itapipoca | Matemática I | Técnico Integrado em Mecânica
+IFCE Itapipoca | Matemática V | Técnico Integrado em Mecânica
+IFCE Itapipoca | Matemática VI | Técnico Integrado em Mecânica
+IFCE Itapipoca | Matemática VI | Técnico Integrado em Edificações
 
 
 # 2021.1 - Professor
