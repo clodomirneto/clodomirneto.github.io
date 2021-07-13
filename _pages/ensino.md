@@ -16,6 +16,11 @@ IFCE Itapipoca | Matemática V | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática VI | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática VI | Técnico Integrado em Edificações
 
+# 2021.2 - Aluno
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+UFRN | Tópicos Avançados em Fundamentos da Computação V | Mestrado em Sistemas e Computação
 
 # 2021.1 - Professor
 
