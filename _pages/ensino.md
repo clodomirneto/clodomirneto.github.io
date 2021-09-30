@@ -15,6 +15,7 @@ IFCE Itapipoca | Matemática I | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática V | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática VI | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática VI | Técnico Integrado em Edificações
+IFCE Maranguape | Matemática Discreta | Licenciatura em Matemática
 
 # 2021.2 - Aluno
 
