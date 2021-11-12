@@ -5,6 +5,8 @@ title: "Projetos"
 author_profile: true
 ---
 
+* [Algebraizable Logics](/algebraizable)
+
 * [*Blog* Rumo à EsPCEx](https://espcex2014.blogspot.com/){:target="_blank"}
 
 * [*Blog* Papiro Militar](https://papiromilitar.blogspot.com/){:target="_blank"}
