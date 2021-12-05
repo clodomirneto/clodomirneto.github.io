@@ -96,11 +96,11 @@ analytics:
 author:
   name             : "Clodomir Neto"
   avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Professor EBTT - Matemática"
-  location         : "IFCE Itapipoca - Brasil"
+  bio              : "Professor EBTT Matemática"
+  location         : "IFCE Campus Itapipoca"
   email            : "clodomirneto@gmail.com"
   github           : "clodomirneto"
-  instagram        : "clodomirslneto"
+  instagram        : "prof.clodomirneto"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -119,7 +119,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/clodomirslneto"
+      # url: "https://instagram.com/prof.clodomirneto"
 
 # Site Footer
 footer:
