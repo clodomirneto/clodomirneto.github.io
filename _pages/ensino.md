@@ -9,6 +9,21 @@ author_profile: true
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
+IFCE Itapipoca | Álgebra Linear | Licenciatura em Física
+IFCE Itapipoca | Geometria Analítica | Licenciatura em Física
+IFCE Itapipoca | Matemática I | Técnico Integrado em Edificações
+IFCE Itapipoca | Matemática I | Técnico Integrado em Informática
+
+# 2022.1 - Aluno
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+UFRN | Tópicos Avançados em Fundamentos da Computação | Mestrado em Sistemas e Computação
+
+# 2021.2 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
 IFCE Itapipoca | Geometria Analítica | Licenciatura em Física
 IFCE Itapipoca | Matemática Aplicada | Técnico Subsequente em Edificações
 IFCE Itapipoca | Matemática I | Técnico Integrado em Mecânica

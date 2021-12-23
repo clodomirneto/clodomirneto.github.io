@@ -7,6 +7,11 @@ author_profile: true
 
 <br />
 
+*11.* Artigo Aceito <br />
+Título: Algebraizability of the Logic of Quasi-N4-Lattices. <br />
+Evento: 10th International Conference Non-Classical Logics. <br />
+Ano: 2022. 
+
 *10.* Apresentação Oral <br />
 Título: O Uso do Blog Manual dos Números no Ensino de Matemática. <br />
 Evento: I Congresso Internacional Virtual de Pesquisa. <br />
