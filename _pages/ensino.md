@@ -18,7 +18,7 @@ IFCE Itapipoca | Matemática I | Técnico Integrado em Informática
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
-UFRN | Tópicos Avançados em Fundamentos da Computação | Mestrado em Sistemas e Computação
+UFRN | Tópicos Avançados em Fundamentos da Computação IV | Mestrado em Sistemas e Computação
 
 # 2021.2 - Professor
 

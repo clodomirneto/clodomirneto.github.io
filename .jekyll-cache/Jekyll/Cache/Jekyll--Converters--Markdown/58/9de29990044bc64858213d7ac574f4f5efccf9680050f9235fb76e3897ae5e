@@ -1,4 +1,4 @@
-I"��<h1 id="20212---professor">2021.2 - Professor</h1>
+I"n�<h1 id="20212---professor">2021.2 - Professor</h1>
 
 <table>
   <thead>
@@ -11,38 +11,23 @@
   <tbody>
     <tr>
       <td>IFCE Itapipoca</td>
+      <td>Álgebra Linear</td>
+      <td>Licenciatura em Física</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
       <td>Geometria Analítica</td>
       <td>Licenciatura em Física</td>
     </tr>
     <tr>
       <td>IFCE Itapipoca</td>
-      <td>Matemática Aplicada</td>
-      <td>Técnico Subsequente em Edificações</td>
+      <td>Matemática I</td>
+      <td>Técnico Integrado em Edificações</td>
     </tr>
     <tr>
       <td>IFCE Itapipoca</td>
       <td>Matemática I</td>
-      <td>Técnico Integrado em Mecânica</td>
-    </tr>
-    <tr>
-      <td>IFCE Itapipoca</td>
-      <td>Matemática V</td>
-      <td>Técnico Integrado em Mecânica</td>
-    </tr>
-    <tr>
-      <td>IFCE Itapipoca</td>
-      <td>Matemática VI</td>
-      <td>Técnico Integrado em Mecânica</td>
-    </tr>
-    <tr>
-      <td>IFCE Itapipoca</td>
-      <td>Matemática VI</td>
-      <td>Técnico Integrado em Edificações</td>
-    </tr>
-    <tr>
-      <td>IFCE Maranguape</td>
-      <td>Matemática Discreta</td>
-      <td>Licenciatura em Matemática</td>
+      <td>Técnico Integrado em Informática</td>
     </tr>
   </tbody>
 </table>
@@ -60,7 +45,7 @@
   <tbody>
     <tr>
       <td>UFRN</td>
-      <td>Tópicos Avançados em Fundamentos da Computação</td>
+      <td>Tópicos Avançados em Fundamentos da Computação IV</td>
       <td>Mestrado em Sistemas e Computação</td>
     </tr>
   </tbody>
