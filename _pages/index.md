@@ -6,7 +6,9 @@ author_profile: true
 excerpt: "About me"
 ---
 
-Atualmente sou professor EBTT, área Matemática, lotado no Campus Itapipoca do IFCE, removido do Campus Crateús do IFCE, redistribuí­do do Campus Araguatins do IFTO.
+Atualmente sou Professor EBTT, área Matemática, lotado no Campus Itapipoca do IFCE e Mestrando do PPgSC-UFRN. 
+
+Possuo Especialização em Ensino de Matemática pela UECE e Graduação em Licenciatura em Matemática pela UFC.
 
 # Endereço de Correspondência
 
