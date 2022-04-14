@@ -10,6 +10,7 @@ author_profile: true
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 IFCE Itapipoca | Álgebra Linear | Licenciatura em Física
+IFCE Itapipoca | Cálculo Diferencial e Integral IV | Licenciatura em Física
 IFCE Itapipoca | Geometria Analítica | Licenciatura em Física
 IFCE Itapipoca | Matemática I | Técnico Integrado em Edificações
 IFCE Itapipoca | Matemática I | Técnico Integrado em Informática

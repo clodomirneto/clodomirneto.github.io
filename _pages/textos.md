@@ -21,6 +21,8 @@ author_profile: true
 
 * [Poesia de um cão abandonado - Renato Oliveira](/textos/poesia_de_um_cao_abandonado)
 
+* [Quadrilha - Carlos Drummond de Andrade](/textos/quadrilha)
+
 * [Recomeçar - Paulo Roberto Gaefke](/textos/recomecar)
 
 * [Seiscentos e Sessenta e Seis - Mario Quintana](/textos/seiscentos_e_sessenta_e_seis)
