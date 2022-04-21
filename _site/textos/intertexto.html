@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
   Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -21,7 +21,7 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Clodomir Neto">
 <meta property="og:title" content="Intertexto">
-<meta property="og:url" content="https://clodomirneto.github.io//textos/intertexto">
+<meta property="og:url" content="http://localhost:4000/textos/intertexto">
 
 
   <meta property="og:description" content="">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="https://clodomirneto.github.io//textos/intertexto">
+<link rel="canonical" href="http://localhost:4000/textos/intertexto">
 
 
 
@@ -52,10 +52,11 @@
     
       "@type": "Person",
       "name": "Clodomir Neto",
-      "url": "https://clodomirneto.github.io//"
+      "url": "http://localhost:4000/"
     
   }
 </script>
+
 
 
 
@@ -78,23 +79,9 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
 
 
     <!-- start custom head snippets -->
@@ -107,11 +94,10 @@
 
   <body class="layout--single">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
-    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
-    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
-    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Pular para navegação primária</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Pular para conteúdo</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Pular para rodapé</a></li>
   </ul>
 </nav>
 
@@ -126,7 +112,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt="Clodomir Neto"></a>
         
         <a class="site-title" href="/">
           Clodomir Neto
@@ -143,7 +129,7 @@
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">Chavear menu</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -164,22 +150,22 @@
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
     <div class="author__avatar">
-      
-        <img src="/assets/images/profile.png" alt="Clodomir Neto" itemprop="image">
-      
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/profile.png" alt="Clodomir Neto" itemprop="image" class="u-photo">
+      </a>
     </div>
   
 
   <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Clodomir Neto</a>
+    </h3>
     
-      <h3 class="author__name" itemprop="name">Clodomir Neto</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
+      <div class="author__bio p-note" itemprop="description">
         <p>Professor EBTT Matemática</p>
 
       </div>
@@ -187,11 +173,11 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Acompanhe no</button>
+    <button class="btn btn--inverse">Siga</button>
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">IFCE Campus Itapipoca</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">IFCE Campus Itapipoca</span>
         </li>
       
 
@@ -215,7 +201,7 @@
 
       
         <li>
-          <a href="mailto:clodomirneto@gmail.com">
+          <a href="mailto:clodomirneto@gmail.com" rel="me" class="u-email">
             <meta itemprop="email" content="clodomirneto@gmail.com" />
             <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">E-mail</span>
           </a>
@@ -234,7 +220,7 @@
 
       
         <li>
-          <a href="https://instagram.com/prof.clodomirneto" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://instagram.com/prof.clodomirneto" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span>
           </a>
         </li>
@@ -246,7 +232,7 @@
 
       
         <li>
-          <a href="https://github.com/clodomirneto" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://github.com/clodomirneto" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
@@ -280,7 +266,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -288,13 +274,12 @@
     </ul>
   </div>
 </div>
-
   
   </div>
 
 
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Intertexto">
     
     
@@ -303,15 +288,17 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Intertexto
-</h1>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/textos/intertexto" class="u-url" itemprop="url">Intertexto
+</a>
+          </h1>
           
 
 
         </header>
       
 
-      <section class="page__content" itemprop="text">
+      <section class="page__content e-content" itemprop="text">
         
         <p>Bertolt Brecht</p>
 
@@ -359,7 +346,6 @@ Ninguém se importa comigo.</p>
   
   
 </div>
-
     </div>
 
     
@@ -372,7 +358,7 @@ Ninguém se importa comigo.</p>
         <div class="page__footer-follow">
   <ul class="social-icons">
     
-      <li><strong>Acompanhe no</strong></li>
+      <li><strong>Siga:</strong></li>
     
 
     

@@ -21,16 +21,16 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Clodomir Neto"
 description              : ""
-url                      : "https://clodomirneto.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://clodomirneto.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "clodomirneto/clodomirneto.github.io/" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -43,6 +43,13 @@ comments:
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -66,8 +73,9 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-yandex_site_verification :
 naver_site_verification  :
+yandex_site_verification :
+baidu_site_verification  :
 
 # Social Sharing
 twitter:
@@ -95,14 +103,14 @@ analytics:
 # Site Author
 author:
   name             : "Clodomir Neto"
-  avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.png"
   bio              : "Professor EBTT Matemática"
   location         : "IFCE Campus Itapipoca"
   email            : "clodomirneto@gmail.com"
   github           : "clodomirneto"
   instagram        : "prof.clodomirneto"
   links:
-    - label: "Email"
+    - label: "E-mail"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
@@ -119,7 +127,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/prof.clodomirneto"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -278,4 +286,4 @@ defaults:
     values:
       layout: single
       author_profile: true
-      
+    
