@@ -6,9 +6,9 @@ author_profile: true
 excerpt: "About me"
 ---
 
-Atualmente sou Professor EBTT, área Matemática, lotado no Campus Itapipoca do IFCE e Mestrando do PPgSC-UFRN. 
+Sou Professor EBTT, área Matemática, lotado no câmpus Itapipoca do IFCE. 
 
-Possuo Especialização em Ensino de Matemática pela UECE e Graduação em Licenciatura em Matemática pela UFC.
+Atualmente, curso Mestrado Acadêmico no PPgSC da UFRN. Possuo Especialização em Ensino de Matemática pela UECE e Graduação em Licenciatura em Matemática pela UFC. 
 
 # Endereço de Correspondência
 
