@@ -7,6 +7,12 @@ author_profile: true
 
 <br />
 
+*12.* Artigo Resumido <br />
+Título: Quasi-N4-lattices and their logic. <br />
+Evento: III Workshop Brasileiro de Lógica. <br />
+Ano: 2022. <br />
+[Arquivo](/assets/files/12_WBL.pdf){:target="_blank"}
+
 *11.* Artigo Completo <br />
 Título: Algebraizability of the Logic of Quasi-N4-Lattices. <br />
 Evento: 10th International Conference Non-Classical Logics. <br />
