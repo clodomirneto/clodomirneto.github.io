@@ -5,7 +5,7 @@ title: "Ensino"
 author_profile: true
 ---
 
-# 2021.2 - Professor
+# 2022.1 - Professor
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -15,7 +15,7 @@ IFCE Itapipoca | Geometria Analítica | Licenciatura em Física
 IFCE Itapipoca | Matemática I | Técnico Integrado em Edificações
 IFCE Itapipoca | Matemática I | Técnico Integrado em Informática
 
-# 2022.1 - Aluno
+# 2022.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -33,7 +33,7 @@ IFCE Itapipoca | Matemática VI | Técnico Integrado em Mecânica
 IFCE Itapipoca | Matemática VI | Técnico Integrado em Edificações
 IFCE Maranguape | Matemática Discreta | Licenciatura em Matemática
 
-# 2021.2 - Aluno
+# 2021.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -59,7 +59,7 @@ IFCE Itapipoca | Matemática IV | Técnico Integrado em Edificações
 IFCE Itapipoca | Matemática V | Técnico Integrado em Edificações
 IFCE Itapipoca | Matemática V | Técnico Integrado em Mecânica
 
-# 2020.2 - Aluno
+# 2020.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -74,7 +74,7 @@ Instituição | Disciplina | Curso
 IFCE Itapipoca | Cálculo Diferencial e Integral III | Licenciatura em Física
 IFCE Itapipoca | Matemática IV | Técnico Integrado em Edificações
 
-# 2020.1 - Aluno
+# 2020.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -160,7 +160,7 @@ Instituição | Disciplina | Curso
 Colégio Militar de Fortaleza | Matemática | 3° Ano
 Colégio Militar de Fortaleza | Matemática | CPrep
 
-# 2015.1 - Aluno
+# 2015.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -207,7 +207,7 @@ Instituição | Disciplina | Curso
 FLATED | Matemática Aplicada à Educação | Licenciatura em Pedagogia
 FLATED | Estatística Aplicada à Educação | Licenciatura em Pedagogia
 
-# 2012.2 - Aluno
+# 2012.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -222,7 +222,7 @@ Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 EEEP Professor Antônio Valmir da Silva | Matemática | 1° Ano
 
-# 2012.1 - Aluno
+# 2012.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -242,13 +242,13 @@ Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 EEFM José Alexandre | Matemática | 1° Ano
 
-# 2011.2 - Aluno
+# 2011.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 UECE | Noções da Geometria Plana | Especialização em Ensino de Matemática
 
-# 2011.1 - Aluno
+# 2011.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -256,7 +256,7 @@ UnB | Introdução à Álgebra | Mestrado em Matemática
 UnB | Introdução à Análise | Mestrado em Matemática
 UnB | Seminário de Teoria dos Números | Mestrado em Matemática
 
-# 2010.2 - Aluno
+# 2010.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -278,7 +278,7 @@ EEFM Vicente Arruda | Matemática | 3° Ano
 EEIEF Maria das Dores Lima | Matemática | 6° Ano
 EEIEF Maria das Dores Lima | Matemática | 7° Ano
 
-# 2009.1 - Aluno
+# 2009.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -299,7 +299,7 @@ Instituição | Disciplina | Curso
 EEFM CAIC Professora Francisca Estrela Torquato Firmeza | Matemática | 9° Ano
 EEFM Vicente Arruda | Matemática | 2° Ano
 
-# 2008.2 - Aluno
+# 2008.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -309,7 +309,7 @@ UFC | Estágio Supervisionado de Matemática I | Licenciatura em Matemática
 UFC | Análise Combinatória e Probabilidade | Licenciatura em Matemática
 UFC | Informática na Educação | Licenciatura em Matemática
 
-# 2008.1 - Aluno
+# 2008.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -318,28 +318,28 @@ UFC | Estruturas Algébricas | Licenciatura em Matemática
 UFC | Estágio Supervisionado de Matemática III | Licenciatura em Matemática
 UFC | Mecânica II | Licenciatura em Matemática
 
-# 2007.2 - Aluno
+# 2007.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 UFC | Instrumentação para o Ensino de Matemática I | Bacharelado em Matemática
 UFC | Introdução às Variáveis Complexas | Bacharelado em Matemática
 
-# 2007.1 - Aluno
+# 2007.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 UFC | Séries de Funções e Equações Diferenciais Ordinárias | Bacharelado em Matemática
 UFC | Estatística e Probabilidade | Bacharelado em Matemática
 
-# 2006.2 - Aluno
+# 2006.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
 UFC | Cálculo Diferencial e Integral III | Bacharelado em Matemática
 UFC | Álgebra Linear III | Bacharelado em Matemática
 
-# 2006.1 - Aluno
+# 2006.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -347,7 +347,7 @@ UFC | Geometria Projetiva Plana | Bacharelado em Matemática
 UFC | Introdução à Teoria dos Números | Bacharelado em Matemática
 UFC | Estruturas de Informação | Bacharelado em Matemática
 
-# 2005.2 - Aluno
+# 2005.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -356,7 +356,7 @@ UFC | Cálculo Diferencial e Integral de Funções Reais de uma Variável II | B
 UFC | Física Geral I | Bacharelado em Matemática
 UFC | Fundamentos de Programação | Bacharelado em Matemática
 
-# 2005.1 - Aluno
+# 2005.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -364,13 +364,13 @@ UFC | Cálculo Diferencial e Integral de Funções Reais de uma Variável I | Ba
 UFC | Matemática Discreta | Bacharelado em Matemática
 UFC | Geometria Analítica Vetorial | Bacharelado em Matemática
 
-# 2004.2 - Aluno
+# 2004.2 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Colégio Lourenço Filho | Intensivo
 
-# 2004.1 - Aluno
+# 2004.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -380,7 +380,7 @@ UFT | Contabilidade Geral III | Bacharelado em Ciências Contábeis
 UFT | Direito Tributário I | Bacharelado em Ciências Contábeis
 UFT | Noções de Administração | Bacharelado em Ciências Contábeis
 
-# 2003.2 - Aluno
+# 2003.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -390,7 +390,7 @@ UFT | Direito Comercial | Bacharelado em Ciências Contábeis
 UFT | Leitura e Prática de Produção de Texto II | Bacharelado em Ciências Contábeis
 UFT | Informática Básica | Bacharelado em Ciências Contábeis
 
-# 2003.1 - Aluno
+# 2003.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -400,7 +400,7 @@ UFT | Introdução à Economia | Bacharelado em Ciências Contábeis
 UFT | Introdução ao Direito | Bacharelado em Ciências Contábeis
 UFT | Leitura e Prática de Produção de Texto I | Bacharelado em Ciências Contábeis
 
-# 2002.1 - Aluno
+# 2002.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -411,7 +411,7 @@ Unitins | Geometria Analítica e Álgebra Linear | Bacharelado em Ciências da C
 Unitins | Programação Avançada | Bacharelado em Ciências da Computação
 Unitins | Inglês II | Bacharelado em Ciências da Computação
 
-# 2001.2 - Aluno
+# 2001.2 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -422,7 +422,7 @@ Unitins | Introdução à Programação | Bacharelado em Ciências da Computaç�
 Unitins | Inglês I | Bacharelado em Ciências da Computação
 Unitins | Leitura e Prática de Produção de Texto | Bacharelado em Ciências da Computação
 
-# 2001.1 - Aluno
+# 2001.1 - Estudante
 
 Instituição | Disciplina | Curso
 ----------- | ---------- | -----
@@ -433,68 +433,68 @@ ULBRA TO | Lógica de Programação | Bacharelado em Sistemas de Informação
 ULBRA TO | Lógica de Predicados | Bacharelado em Sistemas de Informação
 ULBRA TO | Fundamentos de Matemática | Bacharelado em Sistemas de Informação
 
-# 2000 - Aluno
+# 2000 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Centro Educacional Martinho Lutero | 3º Ano
 Colégio Anglo Centro | 3º Ano
 
-# 1999 - Aluno
+# 1999 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Colégio Anglo Centro | 2º Ano
 
-# 1998 - Aluno
+# 1998 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Colégio Anglo Centro | 1º Ano
 
-# 1997 - Aluno
+# 1997 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Colégio Anglo Centro | 8ª Série
 
-# 1996 - Aluno
+# 1996 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Colégio Anglo Centro | 7ª Série
 
-# 1995 - Aluno
+# 1995 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Centro Educacional Luzardo Viana | 6ª Série
 
-# 1994 - Aluno
+# 1994 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Centro Educacional Luzardo Viana | 5ª Série
 
-# 1993 - Aluno
+# 1993 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Centro Educacional Luzardo Viana | 4ª Série
 
-# 1992 - Aluno
+# 1992 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Centro Educacional Luzardo Viana | 3ª Série
 
-# 1991 - Aluno
+# 1991 - Estudante
 
 Instituição | Curso
 ----------- | -----
 Centro de Estudos Criativos Infantil Patinho Dourado | 2ª Série
 
-# 1990 - Aluno
+# 1990 - Estudante
 
 Instituição | Curso
 ----------- | -----
