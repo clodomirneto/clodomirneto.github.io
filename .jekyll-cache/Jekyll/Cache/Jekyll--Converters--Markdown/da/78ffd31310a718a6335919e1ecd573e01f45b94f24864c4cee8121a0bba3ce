@@ -1,4 +1,67 @@
-I"�<h1 id="20221---professor">2022.1 - Professor</h1>
+I"@�<h1 id="20222---professor">2022.2 - Professor</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Instituição</th>
+      <th>Disciplina</th>
+      <th>Curso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Álgebra Linear</td>
+      <td>Licenciatura em Física</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Cálculo Diferencial e Integral IV</td>
+      <td>Licenciatura em Física</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Matemática II</td>
+      <td>Técnico Integrado em Edificações</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Matemática II</td>
+      <td>Técnico Integrado em Informática</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Matemática VI</td>
+      <td>Técnico Integrado em Informática</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="20222---estudante">2022.2 - Estudante</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Instituição</th>
+      <th>Disciplina</th>
+      <th>Curso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UFRN</td>
+      <td>Estudos Orientados I</td>
+      <td>Mestrado em Sistemas e Computação</td>
+    </tr>
+    <tr>
+      <td>UFRN</td>
+      <td>Exame de Qualificação</td>
+      <td>Mestrado em Sistemas e Computação</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="20221---professor">2022.1 - Professor</h1>
 
 <table>
   <thead>

@@ -5,6 +5,23 @@ title: "Ensino"
 author_profile: true
 ---
 
+# 2022.2 - Professor
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+IFCE Itapipoca | Álgebra Linear | Licenciatura em Física
+IFCE Itapipoca | Cálculo Diferencial e Integral IV | Licenciatura em Física
+IFCE Itapipoca | Matemática II | Técnico Integrado em Edificações
+IFCE Itapipoca | Matemática II | Técnico Integrado em Informática
+IFCE Itapipoca | Matemática VI | Técnico Integrado em Informática
+
+# 2022.2 - Estudante
+
+Instituição | Disciplina | Curso
+----------- | ---------- | -----
+UFRN | Estudos Orientados I | Mestrado em Sistemas e Computação
+UFRN | Exame de Qualificação | Mestrado em Sistemas e Computação
+
 # 2022.1 - Professor
 
 Instituição | Disciplina | Curso

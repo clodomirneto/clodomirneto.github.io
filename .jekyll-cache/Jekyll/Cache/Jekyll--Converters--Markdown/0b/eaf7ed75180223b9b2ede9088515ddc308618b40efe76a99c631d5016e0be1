@@ -1,4 +1,4 @@
-I"��<h1 id="20221---professor">2022.1 - Professor</h1>
+I"9�<h1 id="20222---professor">2022.2 - Professor</h1>
 
 <table>
   <thead>
@@ -37,7 +37,70 @@
   </tbody>
 </table>
 
-<h1 id="20221---aluno">2022.1 - Aluno</h1>
+<h1 id="20222---estudante">2022.2 - Estudante</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Instituição</th>
+      <th>Disciplina</th>
+      <th>Curso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UFRN</td>
+      <td>Estudos Orientados I</td>
+      <td>Mestrado em Sistemas e Computação</td>
+    </tr>
+    <tr>
+      <td>UFRN</td>
+      <td>Exame de Qualificação</td>
+      <td>Mestrado em Sistemas e Computação</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="20221---professor">2022.1 - Professor</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Instituição</th>
+      <th>Disciplina</th>
+      <th>Curso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Álgebra Linear</td>
+      <td>Licenciatura em Física</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Cálculo Diferencial e Integral IV</td>
+      <td>Licenciatura em Física</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Geometria Analítica</td>
+      <td>Licenciatura em Física</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Matemática I</td>
+      <td>Técnico Integrado em Edificações</td>
+    </tr>
+    <tr>
+      <td>IFCE Itapipoca</td>
+      <td>Matemática I</td>
+      <td>Técnico Integrado em Informática</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="20221---estudante">2022.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -105,7 +168,7 @@
   </tbody>
 </table>
 
-<h1 id="20212---aluno">2021.2 - Aluno</h1>
+<h1 id="20212---estudante">2021.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -202,7 +265,7 @@
   </tbody>
 </table>
 
-<h1 id="20202---aluno">2020.2 - Aluno</h1>
+<h1 id="20202---estudante">2020.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -255,7 +318,7 @@
   </tbody>
 </table>
 
-<h1 id="20201---aluno">2020.1 - Aluno</h1>
+<h1 id="20201---estudante">2020.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -586,7 +649,7 @@
   </tbody>
 </table>
 
-<h1 id="20151---aluno">2015.1 - Aluno</h1>
+<h1 id="20151---estudante">2015.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -766,7 +829,7 @@
   </tbody>
 </table>
 
-<h1 id="20122---aluno">2012.2 - Aluno</h1>
+<h1 id="20122---estudante">2012.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -819,7 +882,7 @@
   </tbody>
 </table>
 
-<h1 id="20121---aluno">2012.1 - Aluno</h1>
+<h1 id="20121---estudante">2012.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -897,7 +960,7 @@
   </tbody>
 </table>
 
-<h1 id="20112---aluno">2011.2 - Aluno</h1>
+<h1 id="20112---estudante">2011.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -916,7 +979,7 @@
   </tbody>
 </table>
 
-<h1 id="20111---aluno">2011.1 - Aluno</h1>
+<h1 id="20111---estudante">2011.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -945,7 +1008,7 @@
   </tbody>
 </table>
 
-<h1 id="20102---aluno">2010.2 - Aluno</h1>
+<h1 id="20102---estudante">2010.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -1022,7 +1085,7 @@
   </tbody>
 </table>
 
-<h1 id="20091---aluno">2009.1 - Aluno</h1>
+<h1 id="20091---estudante">2009.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1105,7 +1168,7 @@
   </tbody>
 </table>
 
-<h1 id="20082---aluno">2008.2 - Aluno</h1>
+<h1 id="20082---estudante">2008.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -1144,7 +1207,7 @@
   </tbody>
 </table>
 
-<h1 id="20081---aluno">2008.1 - Aluno</h1>
+<h1 id="20081---estudante">2008.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1178,7 +1241,7 @@
   </tbody>
 </table>
 
-<h1 id="20072---aluno">2007.2 - Aluno</h1>
+<h1 id="20072---estudante">2007.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -1202,7 +1265,7 @@
   </tbody>
 </table>
 
-<h1 id="20071---aluno">2007.1 - Aluno</h1>
+<h1 id="20071---estudante">2007.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1226,7 +1289,7 @@
   </tbody>
 </table>
 
-<h1 id="20062---aluno">2006.2 - Aluno</h1>
+<h1 id="20062---estudante">2006.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -1250,7 +1313,7 @@
   </tbody>
 </table>
 
-<h1 id="20061---aluno">2006.1 - Aluno</h1>
+<h1 id="20061---estudante">2006.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1279,7 +1342,7 @@
   </tbody>
 </table>
 
-<h1 id="20052---aluno">2005.2 - Aluno</h1>
+<h1 id="20052---estudante">2005.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -1313,7 +1376,7 @@
   </tbody>
 </table>
 
-<h1 id="20051---aluno">2005.1 - Aluno</h1>
+<h1 id="20051---estudante">2005.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1342,7 +1405,7 @@
   </tbody>
 </table>
 
-<h1 id="20042---aluno">2004.2 - Aluno</h1>
+<h1 id="20042---estudante">2004.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -1359,7 +1422,7 @@
   </tbody>
 </table>
 
-<h1 id="20041---aluno">2004.1 - Aluno</h1>
+<h1 id="20041---estudante">2004.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1398,7 +1461,7 @@
   </tbody>
 </table>
 
-<h1 id="20032---aluno">2003.2 - Aluno</h1>
+<h1 id="20032---estudante">2003.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -1437,7 +1500,7 @@
   </tbody>
 </table>
 
-<h1 id="20031---aluno">2003.1 - Aluno</h1>
+<h1 id="20031---estudante">2003.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1476,7 +1539,7 @@
   </tbody>
 </table>
 
-<h1 id="20021---aluno">2002.1 - Aluno</h1>
+<h1 id="20021---estudante">2002.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1520,7 +1583,7 @@
   </tbody>
 </table>
 
-<h1 id="20012---aluno">2001.2 - Aluno</h1>
+<h1 id="20012---estudante">2001.2 - Estudante</h1>
 
 <table>
   <thead>
@@ -1564,7 +1627,7 @@
   </tbody>
 </table>
 
-<h1 id="20011---aluno">2001.1 - Aluno</h1>
+<h1 id="20011---estudante">2001.1 - Estudante</h1>
 
 <table>
   <thead>
@@ -1608,7 +1671,7 @@
   </tbody>
 </table>
 
-<h1 id="2000---aluno">2000 - Aluno</h1>
+<h1 id="2000---estudante">2000 - Estudante</h1>
 
 <table>
   <thead>
@@ -1629,7 +1692,7 @@
   </tbody>
 </table>
 
-<h1 id="1999---aluno">1999 - Aluno</h1>
+<h1 id="1999---estudante">1999 - Estudante</h1>
 
 <table>
   <thead>
@@ -1646,7 +1709,7 @@
   </tbody>
 </table>
 
-<h1 id="1998---aluno">1998 - Aluno</h1>
+<h1 id="1998---estudante">1998 - Estudante</h1>
 
 <table>
   <thead>
@@ -1663,7 +1726,7 @@
   </tbody>
 </table>
 
-<h1 id="1997---aluno">1997 - Aluno</h1>
+<h1 id="1997---estudante">1997 - Estudante</h1>
 
 <table>
   <thead>
@@ -1680,7 +1743,7 @@
   </tbody>
 </table>
 
-<h1 id="1996---aluno">1996 - Aluno</h1>
+<h1 id="1996---estudante">1996 - Estudante</h1>
 
 <table>
   <thead>
@@ -1697,7 +1760,7 @@
   </tbody>
 </table>
 
-<h1 id="1995---aluno">1995 - Aluno</h1>
+<h1 id="1995---estudante">1995 - Estudante</h1>
 
 <table>
   <thead>
@@ -1714,7 +1777,7 @@
   </tbody>
 </table>
 
-<h1 id="1994---aluno">1994 - Aluno</h1>
+<h1 id="1994---estudante">1994 - Estudante</h1>
 
 <table>
   <thead>
@@ -1731,7 +1794,7 @@
   </tbody>
 </table>
 
-<h1 id="1993---aluno">1993 - Aluno</h1>
+<h1 id="1993---estudante">1993 - Estudante</h1>
 
 <table>
   <thead>
@@ -1748,7 +1811,7 @@
   </tbody>
 </table>
 
-<h1 id="1992---aluno">1992 - Aluno</h1>
+<h1 id="1992---estudante">1992 - Estudante</h1>
 
 <table>
   <thead>
@@ -1765,7 +1828,7 @@
   </tbody>
 </table>
 
-<h1 id="1991---aluno">1991 - Aluno</h1>
+<h1 id="1991---estudante">1991 - Estudante</h1>
 
 <table>
   <thead>
@@ -1782,7 +1845,7 @@
   </tbody>
 </table>
 
-<h1 id="1990---aluno">1990 - Aluno</h1>
+<h1 id="1990---estudante">1990 - Estudante</h1>
 
 <table>
   <thead>
