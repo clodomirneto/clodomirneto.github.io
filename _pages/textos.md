@@ -9,6 +9,8 @@ author_profile: true
 
 * [Esse Brasil! - Clodomir Silva Lima Neto](/textos/esse_brasil)
 
+* [Farra no Quintal - Edith Chacon](/textos/farra_no_quintal)
+
 * [Identidade - Pedro Bandeira](/textos/identidade)
 
 * [Incerteza - Maria Nelse Silva](/textos/incerteza)

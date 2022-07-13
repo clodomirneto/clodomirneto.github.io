@@ -1,0 +1,6 @@
+sudo apt install git
+sudo apt install ruby-full
+sudo apt install jekyll
+bundle config set --local path 'vendor/bundle'
+bundle install
+bundle exec jekyll serve

@@ -7,6 +7,12 @@ author_profile: true
 
 <br />
 
+*15.* Resumo Expandido <br />
+Título: Quase-Nelson: lógica e fragmentos. <br />
+Evento: 20th Brazilian Logic Conference. <br />
+Ano: 2022. <br />
+[Arquivo](/assets/files/15_EBL.pdf){:target="_blank"}
+
 *14.* Artigo Resumido <br />
 Título: Quasi-N4-lattices and their logic. <br />
 Evento: III Workshop Brasileiro de Lógica. <br />
