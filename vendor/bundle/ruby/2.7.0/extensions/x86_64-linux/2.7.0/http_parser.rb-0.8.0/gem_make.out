@@ -1,5 +1,5 @@
 current directory: /home/clodomirneto/Public/clodomirneto.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20220713-60390-cqt3rn.rb extconf.rb
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20220723-6297-cfmhe1.rb extconf.rb
 creating Makefile
 
 current directory: /home/clodomirneto/Public/clodomirneto.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
@@ -13,4 +13,4 @@ linking shared-object ruby_http_parser.so
 
 current directory: /home/clodomirneto/Public/clodomirneto.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20220713-60390-17yfpml
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20220723-6297-yrlcje

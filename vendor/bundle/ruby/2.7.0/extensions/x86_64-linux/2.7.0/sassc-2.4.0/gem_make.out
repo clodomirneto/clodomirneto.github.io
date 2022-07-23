@@ -1,5 +1,5 @@
 current directory: /home/clodomirneto/Public/clodomirneto.github.io/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20220713-60390-1kgmq2o.rb extconf.rb
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20220723-6297-i1bscz.rb extconf.rb
 creating Makefile
 
 current directory: /home/clodomirneto/Public/clodomirneto.github.io/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.so
 
 current directory: /home/clodomirneto/Public/clodomirneto.github.io/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20220713-60390-15cpc5o/sassc
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20220723-6297-1cbpz79/sassc
